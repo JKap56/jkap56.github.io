@@ -18,6 +18,7 @@
 }
 
 .map-container {
+  text-align: left;
   position: relative;
   width: 100%;
   max-width: 800px;
