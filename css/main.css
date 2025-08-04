@@ -3,12 +3,12 @@
   nav {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 0.5rem;
   }
 
   body {
-    font-size: 1.125rem;
+    font-size: 1.1rem;
     padding: 1rem;
   }
 
