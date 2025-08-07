@@ -1,4 +1,4 @@
-/* ==== responsive media query ==== */
+/* ==== Responsive Media Query ==== */
 @media (max-width: 768px) {
   nav {
     display: flex;
@@ -17,6 +17,7 @@
   }
 }
 
+/* ==== Map Container ==== */
 .map-container {
   text-align: left;
   position: relative;
@@ -32,7 +33,7 @@
   border: none;
 }
 
-/* ===== Self-hosted font via @font-face ===== */
+/* ==== Self-hosted Font ==== */
 @font-face {
   font-family: 'OpenSans';
   src: url('/css/fonts/OpenSans-Regular.woff2') format('woff2'),
@@ -41,42 +42,73 @@
   font-style: normal;
 }
 
-/* ===== Base Styles ===== */
+/* ==== Base Styles ==== */
 body {
-  background-color: #fff9f3; /* Light warm tone for BBQ theme */
+  background-color: #fdf6ff; /* Light lavender for subtle purple base */
   font-family: 'OpenSans', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  color: #333;
+  color: #2c1e3f; /* Deep coffee-purple text */
 }
 
-/* ===== Headings ===== */
-h1 {
-  font-size: 2rem;
+/* ==== Headings ==== */
+h1, h2, h3 {
+  color: #5e348c; /* Royal purple */
+  margin-top: 1.2em;
   font-weight: 700;
-  margin-top: 1em;
 }
 
-/* ===== Images ===== */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+h1 {
+  font-size: 2.2rem;
 }
 
-/* ===== Reusable Button Link Style ===== */
+/* ==== Navigation Bar ==== */
+nav {
+  background-color: #5e348c; /* Dark purple nav */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #f3e5ab; /* Soft gold */
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ==== Reusable Button Style ==== */
 .btn-primary {
   display: inline-block;
-  background-color: #c0392b;
-  color: white;
+  background-color: #f3c623; /* Gold button */
+  color: #2c1e3f;
   padding: 10px 16px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .btn-primary:hover {
-  background-color: #a93226;
+  background-color: #e0b821;
+}
+
+/* ==== Image Rules ==== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* ==== Section Styling Example ==== */
+section {
+  padding: 2rem;
+  background-color: #fffaf5;
+  border-bottom: 1px solid #eee;
 }
