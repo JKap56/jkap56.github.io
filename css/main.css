@@ -118,7 +118,7 @@ section {
 .hero {
   background-image: url('/images/herocoffee.png');
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   color: #fff8dc;
   text-align: center;
   padding: 100px 20px;
