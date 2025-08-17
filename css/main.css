@@ -117,7 +117,7 @@ section {
 /* ===== Hero Section ===== */
 .hero {
   background-image: url('/images/herocoffee.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center bottom;
   color: #fff8dc;
   text-align: center;
